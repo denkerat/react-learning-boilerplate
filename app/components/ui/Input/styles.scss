@@ -1,0 +1,42 @@
+@import "../styles/constants";
+
+.field {
+  input {
+    color: #5a5a5a;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    max-width: 100%;
+    line-height: 10px;
+    font-size: 16px;
+    -webkit-transition: all ease-in-out $transition-duration;
+    transition: all ease-in-out $transition-duration;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+  }
+  &.required input {
+    border: 1px solid #bf2c38;
+  }
+
+  input:focus {
+    border: 1px solid #ccc;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #aaa;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #aaa
+}

@@ -1,0 +1,10 @@
+[{
+  "path": "/",
+  "exact": true,
+  "title": "Todo list",
+  "component": "TodoList"
+}, {
+  "path": "/validation",
+  "title": "Validation",
+  "component": "Validation"
+}]

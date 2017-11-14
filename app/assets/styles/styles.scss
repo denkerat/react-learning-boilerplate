@@ -1,0 +1,15 @@
+@import "auth";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  justify-content: flex-start;
+  height: 60px;
+  min-height: 60px;
+}
