@@ -10,8 +10,6 @@
     "start": "cross-env NODE_ENV=development node index",
     "start:production": "npm run build && npm run start:prod",
     "start:prod": "cross-env NODE_ENV=production node index",
-    "clean": "shjs ./internals/scripts/clean.js",
-    "clean:all": "npm run analyze:clean && npm run build:clean",
     "setup": "npm i && npm run build:dll"
   },
   "author": "Dennis Mikhalchenko",
